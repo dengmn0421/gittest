@@ -5,6 +5,5 @@ int main (void)
 	printf("hello world~\n");
 	printf("开始来测试下～\n");
     printf("随便写点吧\n");
-    printf("再写一句吧\n");
 	return 0;
 }
