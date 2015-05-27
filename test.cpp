@@ -7,8 +7,17 @@
 
 #include<iostream>
 using namespace std;
+
+class  A
+{
+public:
+    static void test(void)
+    {
+        cout<<"********test*********"<<endl;
+    }
+};
 int main (void)
 {
-    cout<<"********test*********"<<endl;
+    A::test();
     return 0;
 }
